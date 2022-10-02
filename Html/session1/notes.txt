@@ -1,0 +1,11 @@
+-- Block Elements ==> h1 : h6 , p  , table , ul , ol , form
+-- inline Elements ==> span , a , img , text formatting , label , input , button
+
+-- a attributes ==> href = url / page link , target > _self (default) , _blank 
+
+-- img attributes ==> src (image link / image path)
+                      alt (alternative text)
+                      width (px / %)
+                      height (px / %)
+
+-- global attributes ==> title                      

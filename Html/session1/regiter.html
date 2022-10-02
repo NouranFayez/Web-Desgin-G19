@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form autocomplete="off" method="post" action="succefully.html">
+        <label>First Name:</label>
+        <input type="text" name="fName" required> <br>
+        <label>last Name:</label>
+        <input type="text" name="lastName" minlength="3" maxlength="10" required> <br>
+        <label>Age</label>
+        <input type="number" name="age" disabled> <br>
+        <input type="text" placeholder="enter your Family Name" name="familyName"> <br>
+        <label>Shipping Area</label>
+        <input type="text" value="Alex" name="shippingArea" readonly > <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> <label>Male</label>
+        <input type="radio" name="gender" value="female"> <span>Female</span> <br>
+
+        <label>Tracks</label>
+        <input type="checkbox" name="design" value="0"> <label>Web design</label>
+        <input type="checkbox" name="develop" value="1"> <label>web Develop</label>
+        <input type="checkbox" name="ccna" value="2"> <label>CCNA</label> <br>
+       
+        
+        <select name="courses" multiple placeholder="tessssttt">
+            <option disabled selected>select course</option>
+            <option>Html</option>
+            <option>css</option>
+            <option>Bootstrap</option>
+            <option>Javascript</option>
+        </select> <br>
+
+        <label>Upload File</label> 
+        <input type="file" multiple name="files"> <br>
+
+        <label>Email</label>
+        <input type="email" name="userEmail" autocomplete="off"> <br>
+        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" that must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter">
+
+        <br>
+
+        <label>Address</label>
+        <textarea rows="5" cols="30" placeholder="enter your address" name="address"></textarea> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br> 
+        <input type="month"> <br>
+
+        <input type="color" name="color"> <br>
+
+        <input type="range" name="range" value="0" min="100" max="400" step="50">
+
+        
+
+
+
+        <button type="button">Submit</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+</body>
+</html>
