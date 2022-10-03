@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+}
+
+/* body , h1 , h2, h3, h4, h5, h6 */
+div{
+    /* color: red; */
+}
+
+.div_style{
+    color: green !important;
+}
+
+#div_id{
+    color: blue;
+}
+
+.bg-light{
+    background-color: lightgray;
+    width: 60%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    padding: 10px 5px 20px 15px;
+    padding: 20px 10px;
+    padding: 10px 40px 30px;
+    margin-top: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px auto;
+    /* border-top-color: red;
+    border-top-width: 5px;
+    border-top-style: solid; */
+    border-top: 4px red solid;
+    border-top: 4px red solid;
+    border-left: 4px solid blue;
+    border: 5px solid red;
+
+    /* color: red; */
+
+
+}
+.bg-light h2{
+    width: 50%;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+
+#header_style{
+    background-color: blue;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    width: 30%;
+    border: 2px solid;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.custom-margin{
+    margin: 0 1%;
+}
+
+.card img{
+    width: 100%;
+
+}
+.card .card-body {
+    padding: 10px;
+}
+.card span{
+    background-color: aquamarine;
+    padding: 30px;
+    display: block;
+}
+
+
+form{
+    margin: 5% 0;
+    background-color: aqua;
+}
+
+form input {
+    margin: 10px 0;
+    /* height: 40px; */
+    padding-left: 9px;
+    /* padding: 2% 20%; */
+    border: 0;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+#bg-img{
+    background-image: url(../images/beautiful-natural-senary-our-country-143695342\ \(1\).jpg);
+    /* height: 700px; */
+        background-size: 100% 100%;
+        /* background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat; */
+        background-color: aqua;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-position: center left;
+        color: white;
+}
+
+.overlay{
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+}

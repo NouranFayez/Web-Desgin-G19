@@ -1,0 +1,11 @@
+-- css methods ==> internal sheet
+                   inline style
+                   external sheet
+
+
+-- css selectors ==> tag                   
+-- css priority ==>  inline style , id , class , tag
+
+
+-- block elements
+-- inline elments ==> inline , inline-block
