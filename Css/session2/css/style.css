@@ -1,0 +1,68 @@
+/* Reset style */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: rgb(233 233 233);
+}
+.text-center{
+    text-align: center;
+}
+.custom-padding{
+    padding: 3% 0;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+/* Custom style */
+
+nav{
+    padding: 1% 0;
+}
+.card{
+    padding: 1%;
+    width: 30%;
+    border: 2px solid ;
+    font-size: 20px;
+}
+
+nav li{
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+nav a{
+    color: red;
+}
+.custom-section-height{
+    height: 700px;
+}
+
