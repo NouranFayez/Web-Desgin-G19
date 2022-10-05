@@ -1,0 +1,35 @@
+/* Reset style */
+*{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+
+
+/* global Style */
+/* .container{
+    width: 80%;
+    margin: auto;
+} */
+
+
+/* Custom style */
+
+
+
+.custom-font{
+    font-family: 'Alkalami', serif;
+}
+
+.custom-section-height{
+    height: 700px;
+}
+
+.up-arrow{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+}

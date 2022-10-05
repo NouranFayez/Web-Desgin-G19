@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: rgb(233 233 233);
+}
+.text-center{
+    text-align: center;
+}
+.custom-padding{
+    padding: 3% 0;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+
+
+/* Custom style */
+.custom-icon{
+    color: red;
+    font-size: 64px;
+    margin-top: 3%;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+nav{
+    padding: 1% 0;
+    background: lightgray;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.card{
+    padding: 1%;
+    width: 30%;
+    border: 2px solid ;
+    font-size: 20px;
+}
+
+nav li{
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+nav a{
+    color: red;
+}
+
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 1% 0;
+}
+
+
+.card{
+    background-color: cadetblue;
+    /* color: white; */
+    font-size: 25px;
+    width: 60%;
+    padding: 1%;
+    position: relative;
+    display: inline-block;
+}
+.card p {
+    color: white;
+}
+.card:hover{
+    background-color: black;
+}
+.card:hover p{
+    color: red;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+
+.card + h3 {
+    color: red;
+    margin-top: 5%;
+    display: none;
+}
+
+.card:hover + h3{
+    display: block;
+}
+
+.custom-card{
+    opacity: 0;
+}
