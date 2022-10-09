@@ -135,6 +135,10 @@ ul li:nth-child(3){
     color: aqua;
 }
 
+ul li:nth-last-child(2){
+    background-color: aqua;
+}
+
 .custom-div h1:nth-child(odd){
     color: red;
 }
@@ -144,4 +148,77 @@ ul li:nth-child(3){
 
 .custom-div h1:nth-child(even):hover{
     color: black;
+}
+
+.custom-div :not(p){
+    color: red;
+}
+
+
+/* Pesudo Element */
+
+input::placeholder{
+    color: red;
+}
+.custom_h1::first-letter{
+    font-size: 45px;
+    color: blue;
+}
+#custom_head::first-line{
+    color: red;
+}
+ol{
+    color: blue;
+    font-size: 30px;
+}
+ol li::marker{
+    color: red;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+
+/* :hover{
+    background-color: red;
+} */
+
+.custom_h3{
+    font-size: 40px;
+}
+
+.custom_h3::before{
+    content: "Web Design";
+    background: lightgray;
+    padding: 1%;
+    display: inline-block;
+    border-right: 5px solid red;
+    margin-right: 2%;
+}
+.custom_h3::after{
+    /* content: url(); */
+}
+
+.custom_pesudo_Element{
+    background-color: lightgray;
+    padding: 2%;
+    margin-top: 3%;
+    position: relative;
+}
+
+.custom_pesudo_Element::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 6%;
+}
+
+.custom_pesudo_Element::after{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
 }
