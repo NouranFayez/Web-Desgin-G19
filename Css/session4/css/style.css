@@ -1,0 +1,147 @@
+/* Reset style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    /* background-color: rgb(240 237 237); */
+}
+.custom-style{
+    padding: 3% 0;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* default ==> nowrap */
+    /* flex-direction: row; */
+    /* default ==> row
+                   row-reverse
+                   column 
+                   column-reverse */
+    /* flex-flow: row-reverse wrap;   */
+
+    justify-content: space-between;
+    /* default ==> flex-start
+                    flex-end
+                    space-between
+                    space-around
+                    space-evenly */
+
+    align-items: center;
+    /* default ==> stretch
+                    center
+                    flex-start
+                    flex-end */
+    align-content: space-around;
+    /* space-between 
+       space-around
+       space-evenly
+       flex-start
+       flex-end
+       center  */
+
+
+
+
+}
+/* custom Style */
+.card{
+    width: 26%;
+    padding: 2%;
+    /* box-shadow: h-offset v-offset blur spread color */
+    box-shadow: 0px 0px 16px 3px #404041;
+    text-shadow: 0px 0px 5px dimgrey;
+    /* color: white; */
+    font-size: 20px;
+    /* display: inline-block; */
+    
+}
+
+.flex-card1{
+    order: 3;
+}
+.flex-card2{
+    order: 1;
+    align-self: flex-start;
+}
+.flex-card3{
+    order: 2;
+    /* order: -1; */
+}
+
+
+/* pesudo class  */
+.custom-input{
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 20px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    display: block;
+    /* outline: 3px solid red; */
+}
+.custom-input:hover{
+    /* background-color: aqua; */
+}
+.custom-input:focus{
+    background-color: blue;
+    outline: 0px;
+    border-color: red;
+}
+input:required{
+    border-color: red;
+}
+input:disabled{
+    background-color: burlywood !important;
+}
+input:read-only{
+    background-color: cadetblue ;
+}
+input:checked{
+    width: 40px;
+    height: 40px;
+}
+
+a , ul{
+    font-size: 35px;
+}
+
+a:link{
+    color: burlywood;
+}
+a:visited{
+    color: cadetblue;
+}
+a:active{
+    color: crimson;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color: blue;
+}
+
+ul li:nth-child(3){
+    color: aqua;
+}
+
+.custom-div h1:nth-child(odd){
+    color: red;
+}
+.custom-div h1:nth-child(even){
+    color: yellowgreen;
+}
+
+.custom-div h1:nth-child(even):hover{
+    color: black;
+}
