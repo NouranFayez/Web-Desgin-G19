@@ -1,0 +1,41 @@
+/* 0 : 575px */
+@media (max-width: 575.98px) { 
+    .card-flex{
+        width: 45%;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+   
+ }
+/* 0 : 460px */
+@media screen and (max-width:460px){
+    .card-flex{
+        width: 100%;
+    }
+}
+
+/* 768 : up to */
+@media (min-width: 768px) {
+    .card-flex{
+        width: 45%;
+    }
+ }
+
+
+ /* Range */
+
+ @media  (min-width: 992px) and (max-width: 1199.98px){
+    .card-flex{
+        background-color: cadetblue;
+        color: white;
+    }
+ }
+
+
+ @media print{
+    .card-print{
+        display: none;
+    }
+ }
+

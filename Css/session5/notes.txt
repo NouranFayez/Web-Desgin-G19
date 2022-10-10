@@ -1,0 +1,19 @@
+
+
+@media media type (condition:breakpoint){
+
+}
+
+-- media type ==> all 
+                  speech
+                  print
+                  screen
+
+-- condition ==> min-width
+                 max-width
+                 range
+
+-- breakpoints ==> screen size
+
+
+

@@ -1,0 +1,69 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* custom style */
+.card {
+    width: 30%;
+    padding: 2%;
+    background-color: lightgray;
+}
+
+.card + h1{
+    color: red;
+}
+.card ~ h1{
+    border: 2px solid ;
+    margin: 2%;
+}
+[type]{
+    border: 3px solid blue;
+}
+[type=text]{
+    background-color: lightblue;
+}
+
+[href^=https]{
+    color: red;
+}
+[href$=file]{
+    color: blue;
+    font-size: 25px;
+}
+[href*=test]{
+    padding: 2%;
+}
+.text_style.h2_style{
+    color: cadetblue;
+}
+
+.custom-div > h3{
+    color: red;
+}
+
+.custom-div  h3{
+    /* color: red; */
+    border: 2px solid;
+}
+
+.card-flex{
+    width: 30%;
+    padding: 2%;
+    background: lightgray ;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
