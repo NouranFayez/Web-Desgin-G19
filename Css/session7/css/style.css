@@ -54,3 +54,45 @@
     transform: scale(2) rotate(50deg);
 
 }
+
+
+.animation-card{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin-top: 2%;
+    animation-name: changeBgColor;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: 1;
+    animation-direction:alternate-reverse ;
+    animation-timing-function: linear;
+}
+
+@keyframes changeBgColor{
+    /* from{
+        background-color: bisque;
+    }
+    to{
+        background-color: blue;
+    } */
+    0%{
+        background-color: bisque;
+        
+    }
+    25%{
+        background-color: blue; 
+        transform: translateX(200px);
+    }
+    50%{
+        background-color: burlywood;
+        transform: translate(200px , 200px);
+    }
+    75%{
+        background-color: chartreuse;
+        transform: translate(0px , 200px);
+    }
+    100%{
+        background-color: rgb(233, 175, 186);
+    }
+}
