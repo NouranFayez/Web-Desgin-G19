@@ -1,0 +1,56 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-gold{
+    background-color: goldenrod;
+}
+
+/* custom style */
+
+.card{
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.card:hover{
+    /* margin-left: 4%; */
+    transform: translateX(100px);
+    transform: translateX(100%);
+    transform: translateY(100%);
+    transform: translateY(-50%);
+    transform: translateY(100%);
+    transform: translate(200px , 300px);
+    transform: rotate(50deg);
+    transform: rotate(-50deg);
+    transform: rotate(-360deg);
+    transform: scaleX(1.5);
+    transform: scaleX(0.5);
+    transform: scaleY(0.5);
+    transform: scaleY(3);
+    transform: scale(0.5 , 2);
+    transform: skewX(-50deg);
+    transform: skewY(50deg);
+    transform: skewY(-50deg);
+    transform: skew(50deg , 50deg);
+    /* matrix()  ==> scaleX , skewY , skewX , scaleY , translateX , translateY */
+    transform: matrix(0.5 , 0 , 0.5 , 2 , 100 , 200);
+    transform: scale(2) rotate(50deg);
+
+}
