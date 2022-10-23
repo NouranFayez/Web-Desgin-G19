@@ -1,0 +1,15 @@
+--Switch Case ==> strict equality ==> (===) ==> value - datatype
+
+-- loops ==> while , for , forEach
+
+-- function ==> name 
+                parameters 
+                return 
+                call()
+
+
+function looping(startNum , endNum , contNum , breakNum)
+
+
+
+-- var , let , const                
