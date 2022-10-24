@@ -1,0 +1,10 @@
+
+-- numberOfUsers() 
+
+-- addUser() ==> id , balance , name
+
+-- editUserBalanceById() ==> id , newBalance
+
+-- deleteUserById() ==> id
+
+ 
