@@ -1,0 +1,8 @@
+.custom-h3{
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    padding: 2%;
+    border: 5px solid red;
+    margin: auto;
+}
