@@ -1,0 +1,12 @@
+/* .custom_div:hover{
+    background-color: lightgray;
+} */
+
+.custom_div{
+    width: 400px;
+    height: 200px;
+    border: 2px solid ;
+    margin: 3% auto;
+}
+
+

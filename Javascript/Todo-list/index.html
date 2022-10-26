@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="row gy-4 mt-4"  id="my-form">
+            <div class="col-12 col-md-6">
+                <input type="text" placeholder="Task Name" class="form-control" name="taskName" >
+            </div>
+            <div class="col-12 col-md-6">
+                <select name="taskType" id="" class="form-control" >
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>UX</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary">Add Task</button>
+            </div>
+        </form>
+
+        <div class="tasksContainer mt-3">
+
+        </div>
+
+
+        <table class="table w-100">
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Balance</th>
+                <th>Action</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>1</td>
+                    <td>20000</td>
+                    <td>
+                        <button class="btn btn-sm btn-success">Edit  Balance</button>
+                        <button class="btn btn-sm btn-danger">Remove User</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
